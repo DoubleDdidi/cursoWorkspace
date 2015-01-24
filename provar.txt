@@ -1,4 +1,4 @@
-2 -  vimos no capítulo de Anterior, a branch local master é uma branch que mantém referência para a branch master remota (origin/master). O processo de merge, quando acontece, pode confundir muitos desenvolvedores a respeito dessa referência. Outro problema é a geração de mensagens de merge, poluindo o nosso log.
+2 - vimos no capítulo de Anterior, a branch local master é uma branch que mantém referência para a branch master remota (origin/master). O processo de merge, quando acontece, pode confundir muitos desenvolvedores a respeito dessa referência. Outro problema é a geração de mensagens de merge, poluindo o nosso log.
 
 Justamente para evitar tais situações, é uma boa prática sempre trabalhar em uma branch local que não seja a master. Então, para isso, um próximo passo é criar uma branch para realizar todo o trabalho e apenas utilizar a master para sincronizar os commits com o repositório remoto (origin).
 Então, um primeiro passo, que pode ser feito tanto pelo "jcfonsecagit" quanto pela "mmsoaresgit", é criar uma branch local chamada "desenvolvimento" e
